@@ -169,7 +169,7 @@ execute if score randomeffect chaos_vars matches 30 as @a[tag=target] at @s run 
 
 execute if score randomeffect chaos_vars matches 31 run tag @r add target
 execute if score randomeffect chaos_vars matches 31 run tellraw @a [{"text":"Chaos | \""},{"selector": "@a[tag=target]"},{"text": "\" Is increadably lucky, good for them"}]
-execute if score randomeffect chaos_vars matches 31 run give @a[tag=target] diamond_block
+execute if score randomeffect chaos_vars matches 31 run give @a[tag=target] bedrock
 
 execute if score randomeffect chaos_vars matches 32 run tag @r add target
 execute if score randomeffect chaos_vars matches 32 run tellraw @a [{"text":"Chaos | \""},{"selector": "@a[tag=target]"},{"text": "\" Found a portal"}]
